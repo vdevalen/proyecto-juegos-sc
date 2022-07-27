@@ -1,5 +1,6 @@
 *{
 	box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -49,16 +50,30 @@ header{
 
 /*titulo juego*/
 h4{
-    background-color: #fff;
+    background-color: black;
     border-radius: 25px;
     padding: 10px;
+    color: #fff;
 }
 
 /*formulario*/ 
+
+.container{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 0 20px;  
+    justify-content: space-between;
+}
+
+
 main{
 	max-width: 100%;
 	margin: auto;
-	padding: 100px;
+	padding: 50px;
     text-align: center;
     /* background-color: #937341; */
     width: 100%;
@@ -77,10 +92,50 @@ main{
 }
 
 .formulario-nombre{
-    background-color: #fff;
-    color: #181511;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    
+
 }
 
+.formulario-apellido{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+}
+
+
+.formulario-edad{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+}
+
+.formulario-salario{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+}
+
+#nombre{
+    padding: 10px;
+    margin: auto;
+}
+#edad{
+    padding: 10px;
+    margin: auto;
+}
+
+#apellido{
+    padding: 10px;
+    margin: auto;
+}
+
+#salario{
+    padding: 10px;
+    margin: auto;
+}
 .formulario-btn{
     color: #fff;
     background-color: black;

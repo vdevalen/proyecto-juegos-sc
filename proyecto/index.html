@@ -46,32 +46,39 @@
     <h4> ¡Forma tú equipo!</h4>
     <form action=""  class="formulario" id="formulario">
 
+<div class="container">
+    <div class="forms" id="formulario">
+
+    <form action="#">
         <div class="formulario-nombre">
             <i class="uil uil-user"></i>
         <label for="">Nombre</label> 
-        <input type="text" id="nombre" placeholder="ingrese su nombre">
+        <input type="text" id="nombre" placeholder="ingrese su nombre" data-test="nombre">
     </div>
     
 <!--apellido rol-->
     <div class="formulario-apellido">
         <i class="uil uil-bolt-alt"></i>
         <label for="">Poder</label>
-        <input type="text" id="apellido" placeholder="ingrese su poder">
+        <input type="text" id="apellido" placeholder="ingrese su poder" data-test="poder">
     </div>
 
     <div class="formulario-edad">
         <i class="uil uil-dialpad-alt"></i>
         <label for="">Edad</label>
-        <input type="number" id="edad" placeholder="ingrese su edad">
+        <input type="number" id="edad" placeholder="ingrese su edad" data-test="edad">
     </div>
 
     <!--salrio = rol-->
     <div class="formulario-salario">
         <i class="uil uil-lightbulb-alt"></i>
         <label for="">Rol</label>
-        <input type="number" id="salario" placeholder="ingrese su rol">
+        <input type="number" id="salario" placeholder="ingrese su rol" data-test="rol">
     </div>
 </form>
+</div>
+</div>
+
     <button onclick="agregarPersonas()" class="formulario-btn">Agregar</button>
     <div id="lista" class="lista">
     </div>
